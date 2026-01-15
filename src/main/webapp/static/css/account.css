@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.account-wrapper {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.danger-btn {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+#status {
+    margin-top: 20px;
+    font-weight: bold;
+    display: none;
+}
+.success {
+    color: green;
+}
+.error {
+    color: red;
+}
+.account-wrapper {
+    max-width: 400px;
+    margin: 100px auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+#homeBtn {
+    background-color: #3498db;
+    color: white;
+}
+
+#homeBtn:hover {
+    background-color: #2980b9;
+}
+
+#deleteAccountBtn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#deleteAccountBtn:hover {
+    background-color: #c0392b;
+}
+
+#status {
+    margin-top: 20px;
+    font-weight: bold;
+}
